@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-10-23, 01:15:10
+    Author     : Marcin Jeznach
+*/
+
+.slider .thumb {
+    -fx-background-image: url("image/tvSlider2.png");
+}
+
+.slider {
+    -fx-control-inner-background: rgba(0,0,0,0);
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.slider .track {
+    -fx-control-inner-background: rgba(0,0,0,0);
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.slider .axis {
+    -fx-control-inner-background: rgba(0,0,0,0);
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.wlacznik {
+    -fx-background-image: url("image/tvToggleSwitch.png");
+    -fx-background-size:100%;
+    -fx-background-repeat:no-repeat;
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.wlacznik:selected {
+    -fx-background-image: url("image/tvToggleSwitchOn.png");
+}
